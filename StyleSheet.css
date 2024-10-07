@@ -1,0 +1,161 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: #969696;
+    font-size: large;
+    font-weight: 600;
+}
+
+img {
+    height: 50%;
+    margin-right: 8px;
+}
+
+#titlebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px; 
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    top: 0%;
+    left: 0%;
+    border-bottom: 2px solid #ccc;
+    height: 60px;
+    margin-top: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#searchbar {
+    background-color: #2f2f2f;
+    color: #969696;
+    border-radius: 20px;
+    border-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-indent: 5%;
+    font-size: 2vh;
+    font-weight: bold;
+    align-content: center;
+    resize: none;
+}
+
+/*Groups together Login button and the dropdown so they sit together on right */
+.rightheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+button {
+    background-color: #ff3b5c;
+    color: white;
+    height: 4vh;
+    width: 11vh;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 1.8vh;
+}
+
+#leftnavbarflexbox button {
+    background-color: #252525;
+    border-style: solid;
+    border-color: #ff3b5c;
+    width: auto;
+    height: 5vh;
+}
+
+.rightheader a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#leftnavbarflexbox a {
+    text-decoration: none;
+    color: #ff3b5c;
+}
+  
+#leftnavbar {
+    position: fixed;
+    left: 0%;
+    top:14%;
+    bottom:0%;
+    width:10%;
+    margin-right: 90%;
+    background-color: black;
+}
+
+#leftnavbarflexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color:var(--maroon);
+    /* padding: 20px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    border:#ccc;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 5px;
+}
+
+#contentplaceholder {
+    display: flex;
+    width: 25%;              
+    height: 750px;               
+    margin: auto;               
+    margin-top: 80px;
+    border: 2px dashed #ffffff;     
+    display: flex;              
+    justify-content: center;     
+    align-items: center;          
+    font-size: 24px;              
+    color: #000000;                 
+    background-color: #f9f9f9;      
+    border-radius: 30px;
+    text-align: center;
+  }
+
+  #contentinfo {
+    position: relative;
+    top: -55px;
+    display: flex;
+    width: 25%;
+    height: 50px;
+    margin: auto;
+    margin-top: 0px;
+    border: 2px dashed #ffffff;
+    justify-content: left;
+    align-items: end;
+    font-size: 10px;
+    color: #000000;
+    background-color: #f9f9f9;
+    border-radius: 30px;
+    text-align: left;
+  }
+
+#contentinfo button{
+    background-color: #f9f9f9;
+    border-style: solid;
+    border-color: #f9f9f9;
+    width: auto;
+    height: min-content;
+    text-decoration: solid;
+
+}
